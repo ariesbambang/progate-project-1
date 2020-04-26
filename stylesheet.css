@@ -118,6 +118,13 @@ header {
 .header-left {
   float: left;
 }
+.header-left p {
+  font-size: 23px;
+  color: white;
+  padding: 0 380px;
+  float: right;
+
+}
 
 .header-right {
   float: right;
