@@ -7,19 +7,37 @@ a {
   text-decoration: none;
 }
 
+marquee {
+  font-style: italic;
+}
+
 .container {
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
+.container .title {
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  font-size: 70px;
+}
+
 .container h1 {
   font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif;
+  /* font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; */
+}
+
+
+.container .corona-text {
+  font-style: italic;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553_960_720.jpg);
+  background-image: url(https://image.freepik.com/free-photo/coronavirus-infection-with-copy-space_23-2148473749.jpg);
+  /* background-image: url(https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553_960_720.jpg); */
   background-size: cover;
   opacity: 1;
   color: white;
@@ -46,7 +64,7 @@ a {
   margin: 10px 0;
 }
 
-.signup {
+.covid {
   background-color: #239b76;
 }
 
@@ -57,6 +75,11 @@ a {
 
 .twitter {
   background-color: #55acee;
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: #e17055;
 }
 
 .btn {
@@ -105,13 +128,19 @@ header {
 
 .header-right:hover {
   background-color: rgba(255, 255, 255, 0.5);
-  color: red;
 }
 
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
+  display: block;
+}
+
+.header-right a:hover {
+  line-height: 65px;
+  padding: 0 25px;
+  color: grey;
   display: block;
 }
 
